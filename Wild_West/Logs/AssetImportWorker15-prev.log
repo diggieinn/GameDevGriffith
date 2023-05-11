@@ -1,0 +1,382 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3 (Build 22E252)
+Darwin version:          22.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+/Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+54588
+Successfully changed project path to: /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777
+/Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Forcing user selected device: Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56085
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001226 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 85.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (480ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (338ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004937 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (196.0 KB). Loaded Objects now: 4507.
+Memory consumption went from 58.5 MB to 58.4 MB.
+Total: 4.201000 ms (FindLiveObjects: 0.134042 ms CreateObjectMapping: 0.052333 ms MarkObjects: 3.891208 ms  DeleteObjects: 0.122792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36173.755481 seconds.
+  path: Assets/CharacterPack Lowpoly (FREE)/Materials/Characters 1.mat
+  artifactKey: Guid(37f6354679f3e1748b76a9221f51f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterPack Lowpoly (FREE)/Materials/Characters 1.mat using Guid(37f6354679f3e1748b76a9221f51f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14898175337d06e712920d59990002bd') in 0.226966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.614657 seconds.
+  path: Assets/CharacterPack Lowpoly (FREE)/Models/character1.fbx
+  artifactKey: Guid(7966d979d9982a743a30e3b75a402b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterPack Lowpoly (FREE)/Models/character1.fbx using Guid(7966d979d9982a743a30e3b75a402b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448689e00881e5287adba0c0408c1aff') in 0.145963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.830676 seconds.
+  path: Assets/CharacterPack Lowpoly (FREE)
+  artifactKey: Guid(ef57938ddc5c3496daedb7e8d2ae611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterPack Lowpoly (FREE) using Guid(ef57938ddc5c3496daedb7e8d2ae611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd38cb395c5679178466bed9fb0116f7') in 0.009528 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007355 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x179edb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (633ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (5.6 MB). Loaded Objects now: 4568.
+Memory consumption went from 239.3 MB to 233.7 MB.
+Total: 5.085958 ms (FindLiveObjects: 0.326625 ms CreateObjectMapping: 0.298167 ms MarkObjects: 3.632250 ms  DeleteObjects: 0.827625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 297.666964 seconds.
+  path: Assets/Polytope Studio
+  artifactKey: Guid(115939fafdaab3542ac9de578833169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio using Guid(115939fafdaab3542ac9de578833169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f0d15b8c1655024d8d3809ea9a6520') in 0.005723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.092738 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments
+  artifactKey: Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments using Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd2abfe77f272207e380a926ab4266f') in 0.000519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.236467 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Props
+  artifactKey: Guid(a83bb5d9346617246989deb637a194d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Props using Guid(a83bb5d9346617246989deb637a194d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da8bf57969c27c941d9da5f242c3bac') in 0.000809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.086598 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos
+  artifactKey: Guid(96a08e9b3a862214b8c94c891f9b5a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos using Guid(96a08e9b3a862214b8c94c891f9b5a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25509f97eb4b25a55150a040c53e1a0b') in 0.000812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.418344 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters
+  artifactKey: Guid(2fe323f58b2eff8478619059f3c2c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters using Guid(2fe323f58b2eff8478619059f3c2c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fe5735c5cf54e7df94a01add032cc9') in 0.001315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.097308 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs
+  artifactKey: Guid(16ea5dfdcb380b54aac6800d1ca383a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs using Guid(16ea5dfdcb380b54aac6800d1ca383a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3656086c2a90e74cf6bde5e0b521b689') in 0.000704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.070362 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC
+  artifactKey: Guid(77b08afb7843c394e86c073cce4beb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC using Guid(77b08afb7843c394e86c073cce4beb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f13f5735e17eb33f1478dcd98be0ee') in 0.000576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.843534 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens
+  artifactKey: Guid(ef171c9e80649f54cbcd1f3faa867b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens using Guid(ef171c9e80649f54cbcd1f3faa867b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2921ead6b005d794d25f088b41d66cd') in 0.001333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074497 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Boy_Modular_Free_Pack.prefab
+  artifactKey: Guid(0da600d002dc6404693c3b74e0265a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Boy_Modular_Free_Pack.prefab using Guid(0da600d002dc6404693c3b74e0265a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5346f2a39c059f76bcbeeb0ae4be14f0') in 0.649377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.053509 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts
+  artifactKey: Guid(702804fa3f1ed9b4eb3b29a14ffa1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts using Guid(702804fa3f1ed9b4eb3b29a14ffa1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca516977ed308469d5f4db4f12d1d5c') in 0.001019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067152 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Boy_Naked_head.prefab
+  artifactKey: Guid(ea1da35ac8975314b928a852a6ccf50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Boy_Naked_head.prefab using Guid(ea1da35ac8975314b928a852a6ccf50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e542b2d59479196f51603c14260ff282') in 0.019028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Peasant_01_head.prefab
+  artifactKey: Guid(8ca110388ca7fd14dad36c10a00ec9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Peasant_01_head.prefab using Guid(8ca110388ca7fd14dad36c10a00ec9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0657620167cc5e886f86b61487842be8') in 0.049681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001653 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Naked_upper.prefab
+  artifactKey: Guid(479a870e71aff4a40aedb16e927baec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Naked_upper.prefab using Guid(479a870e71aff4a40aedb16e927baec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433efd1160497888d3a905ab841d65ff') in 0.012828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Peasant_01_upper.prefab
+  artifactKey: Guid(bfda4cb70c595b44f876c30eaaf36d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Peasant_01_upper.prefab using Guid(bfda4cb70c595b44f876c30eaaf36d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa102f18574a813be217e0d78b7a414') in 0.014027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Naked_head.prefab
+  artifactKey: Guid(4fa3f369ac29cae49b56054471b7e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Naked_head.prefab using Guid(4fa3f369ac29cae49b56054471b7e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f3fd894edaa0f8b6e5f52e9159625f') in 0.010663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Peasant_01_lower.prefab
+  artifactKey: Guid(8f5614550da6b844181481c5f0cb10e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Male_Peasant_01_lower.prefab using Guid(8f5614550da6b844181481c5f0cb10e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23c8172e289e5aaca726ab8e5afa785') in 0.010662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Boy_Peasant_01_lower.prefab
+  artifactKey: Guid(c4261d5e5be8e9d4082d6bf6e349905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Boy_Peasant_01_lower.prefab using Guid(c4261d5e5be8e9d4082d6bf6e349905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f374b1e8ae78ce190bde7cbfbae060') in 0.012296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Female_Naked_upper_short.prefab
+  artifactKey: Guid(e2120f242928b6849ab4c9caf8ce66c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Separate_Parts/PT_Female_Naked_upper_short.prefab using Guid(e2120f242928b6849ab4c9caf8ce66c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a34c3ca304e3db1f84101496df81921') in 0.010288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.514521 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets
+  artifactKey: Guid(3f02a3be934dd204799ade6060ee062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets using Guid(3f02a3be934dd204799ade6060ee062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b717134ec88c5056eff3ab6200ac4f37') in 0.008365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014064 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Boy_Naked.prefab
+  artifactKey: Guid(1b7b502c1d13936449cf9aafc517a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Boy_Naked.prefab using Guid(1b7b502c1d13936449cf9aafc517a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594dd00cc714b607df1b98120f124c1a') in 0.044522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011328 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Male_Naked.prefab
+  artifactKey: Guid(d5de11f0d6450c64188544c27c9afd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Male_Naked.prefab using Guid(d5de11f0d6450c64188544c27c9afd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea051a09a68824783a079e539a8f55c7') in 0.017361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.prefab
+  artifactKey: Guid(1906c8b8d7539724b9f8bed9421c270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.prefab using Guid(1906c8b8d7539724b9f8bed9421c270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450314f3962224ed365dacd44f093fe6') in 0.018058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Naked.prefab
+  artifactKey: Guid(7cd66bde2d23ff2409a00999291f0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Naked.prefab using Guid(7cd66bde2d23ff2409a00999291f0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f8c280150d6f19c7a096f12573b1ac') in 0.019972 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

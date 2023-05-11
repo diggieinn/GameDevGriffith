@@ -1,0 +1,265 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3 (Build 22E252)
+Darwin version:          22.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54588
+Successfully changed project path to: /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777
+/Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Forcing user selected device: Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000444 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 101.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003792 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muhammadalisafdar/Documents/M.A.S/GitHub/elgato777/elgato777/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (82.8 KB). Loaded Objects now: 3837.
+Memory consumption went from 30.8 MB to 30.8 MB.
+Total: 4.441958 ms (FindLiveObjects: 0.168625 ms CreateObjectMapping: 0.064833 ms MarkObjects: 4.092167 ms  DeleteObjects: 0.115042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32195.329531 seconds.
+  path: Assets/Wild West Western/Textures/Church.psd
+  artifactKey: Guid(0d7d206cd4cbc494c95a3b6a8cc41ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Textures/Church.psd using Guid(0d7d206cd4cbc494c95a3b6a8cc41ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39278688df6e668ae8db1c94130499dd') in 0.108155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002456 seconds.
+  path: Assets/Wild West Western/Textures/Mine.psd
+  artifactKey: Guid(cb56e12324e00f94b8712ae297423537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Textures/Mine.psd using Guid(cb56e12324e00f94b8712ae297423537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df42b3ecf30abb18d32ddc19cc69cfcc') in 0.006630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002493 seconds.
+  path: Assets/Wild West Western/Textures/Barrel.psd
+  artifactKey: Guid(6e7b892b34b65004ba93d7a955e02d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Textures/Barrel.psd using Guid(6e7b892b34b65004ba93d7a955e02d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8edd35399086ae3f9e0368d2f8413a') in 0.008156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_02.fbx
+  artifactKey: Guid(675595a4ece1e52499560fb1c1df52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_02.fbx using Guid(675595a4ece1e52499560fb1c1df52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d8e4512c2866b720bbe32ec6e920ac') in 1.000665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Wild West Western/Models
+  artifactKey: Guid(5c3d1a94e97184bd9940e1e2ef38f477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models using Guid(5c3d1a94e97184bd9940e1e2ef38f477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47907c0859ae24a9cc15cce6f9ec8934') in 0.001084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Wild West Western/Models/Tracks_03.fbx
+  artifactKey: Guid(c71ea73db32c25849bff57fe603bb45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tracks_03.fbx using Guid(c71ea73db32c25849bff57fe603bb45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7710de95404026872636304c0859fe6') in 0.017176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001538 seconds.
+  path: Assets/Wild West Western/Models/Grave_02.fbx
+  artifactKey: Guid(d73eca9c701133a4f9cd2e5212dd311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Grave_02.fbx using Guid(d73eca9c701133a4f9cd2e5212dd311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0116e2bebf4835bc3882913754ddb0dd') in 0.025681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Wild West Western/Textures/House_Standard_04.psd
+  artifactKey: Guid(05c8362d8daba13448292fb1725c6107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Textures/House_Standard_04.psd using Guid(05c8362d8daba13448292fb1725c6107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755008d3046a4b5fd280b190ca56bffe') in 0.011354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Wild West Western/Models/Fence_01.fbx
+  artifactKey: Guid(0a33bac1074a2a945b55ab00d20b84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_01.fbx using Guid(0a33bac1074a2a945b55ab00d20b84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eed3ebd1305ac6af8703018a7d57c4f') in 0.018085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Wild West Western/Textures/House_Standard_02.psd
+  artifactKey: Guid(cb08c0950d9afc548bb4d3ebdb83327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Textures/House_Standard_02.psd using Guid(cb08c0950d9afc548bb4d3ebdb83327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80aa15b284f88cba9ee8bfe20a8b156') in 0.009825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.142707 seconds.
+  path: Assets/Wild West Western/Models/Materials/Barn_01.mat
+  artifactKey: Guid(e7e5c963d45ebe84794f50a2fe5130fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Materials/Barn_01.mat using Guid(e7e5c963d45ebe84794f50a2fe5130fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec237747f305359e618aca627d88570') in 0.168440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Wild West Western/Models/Materials/Diamond.mat
+  artifactKey: Guid(bece8a0fbdb876d46b4bc5502252c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Materials/Diamond.mat using Guid(bece8a0fbdb876d46b4bc5502252c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4b17d029051803302de93dc3e404fa') in 0.007997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Wild West Western/Models/Materials/Gate.mat
+  artifactKey: Guid(8296a350bf5df2744940a9c767847500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Materials/Gate.mat using Guid(8296a350bf5df2744940a9c767847500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7db2675f1830dd861efabc2c8b2ffc') in 0.008283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Wild West Western/Models/Materials/Star.mat
+  artifactKey: Guid(8944d8be0539dac4cb42da1ecae18f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Materials/Star.mat using Guid(8944d8be0539dac4cb42da1ecae18f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cf15dc630ec2ef860a386da81023fb') in 0.007833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Wild West Western/Models/Materials/Chapel.mat
+  artifactKey: Guid(edb161f6ca1a4ee469d474e81724add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Materials/Chapel.mat using Guid(edb161f6ca1a4ee469d474e81724add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db07c04b5a5426e6043f2ddd5ecb18') in 0.008041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Wild West Western/Models/Materials/Well.mat
+  artifactKey: Guid(21532357e42711547ae9e6aee94d5403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Materials/Well.mat using Guid(21532357e42711547ae9e6aee94d5403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f261e24ffaf4352a3ede508ae6061c3') in 0.008544 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
